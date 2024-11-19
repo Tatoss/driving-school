@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Bottom menu styles */
+.bottom-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 100;
+    border-top: 1px solid #ddd;
+}
+
+.menu-item {
+    text-align: center;
+    flex: 1;
+    color: #7a7a7a;
+    transition: color 0.3s ease;
+}
+
+.menu-item.active {
+    color: #007bff;
+}
+
+.menu-item p {
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+
+/* Material icons */
+.material-icons {
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+}
